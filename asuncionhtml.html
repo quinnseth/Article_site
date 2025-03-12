@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(100, 26, 26);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(142, 142, 142);
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+    img {
+weight: 300px;
+height: 300px;
+    }
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>MANNY PACQUIAO</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/Quinn%20seth%20asuncion/Documents/my%20first%20website/totetetet.html">More</a></li>
+   
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Manny Pacquiao: The Journey of a Legend
+        Manny Pacquiao: From Poverty to Pugilism</h2>
+        <p>Pacquiao’s humble beginnings played a significant role in shaping his destiny. Growing up in General Santos City, a poverty-stricken region in the Philippines, he faced adversity from an early age. His family struggled to make ends meet, and young Manny often found himself on the streets, selling doughnuts and cigarettes to survive.
+<center>
+            Pacquiao’s introduction to boxing was more a necessity than a choice. Desperate to escape poverty, he turned to the sport as a means of earning a livelihood. His natural talent and raw power quickly caught the attention of local trainers, and it became evident that Pacquiao possessed something special that could not be ignored.</p>
+         
+          <img src="https://th.bing.com/th/id/OIP.CB2fFeC1E1QSyrKnnkSjbwAAAA?rs=1&pid=ImgDetMain.jpg" alt="Manny pacquiao: Boxing Legend's Journey"  width="250" height="250">
+</center>
+<h2>
+National Recognition</h2>
+<p>Pacquiao’s ascent to national recognition began in earnest when he won the Philippine flyweight title at the age of 16. This victory marked the commencement of a career that would eventually see him capture world titles in multiple weight classes. His relentless work ethic and unwavering determination helped set him apart from his peers and endeared him to the Filipino people.
+
+Pacquiao’s meteoric rise in the boxing arena has not only garnered global acclaim but has also united the people of the Philippines in pride and admiration. His remarkable skill, speed, and resilience in the ring have earned him numerous world titles across multiple weight classes, solidifying his status as one of the greatest boxers of all time. He raised his stakes at the UFC betting charts as well.
+
+International Breakthrough
+Pacquiao’s breakthrough on the international stage came in 2001 when he faced off against Lehlohonolo Ledwaba for the IBF super bantamweight title. On just two weeks’ notice – he dominated the fight – securing a sixth-round knockout victory. This unexpected triumph catapulted him into the global spotlight and paved the way for more significant opportunities. 
+ </p>
+</article>
+</section>
+
+<footer>
+  <p>asuncion website</p>
+</footer>
+
+</body>
+</html>
